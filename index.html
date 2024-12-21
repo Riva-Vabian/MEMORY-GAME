@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Memory Match Game</h1>
+        <p class="subtitle">Unleash your memory skills!</p>
+        
+        <div id="game-board" class="game-board"></div>
+
+        <div class="controls">
+            <button id="restart" class="button">Restart Game</button>
+            <p>Time Elapsed: <span id="time">0</span> seconds</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Design By <strong>Riva Vabian</strong> &copy; 2024</p>
+    </footer>
+
+    <audio id="flip-sound" src="audio/flip.mp3"></audio>
+    <audio id="match-sound" src="audio/match.mp3"></audio>
+    <audio id="error-sound" src="audio/error.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
